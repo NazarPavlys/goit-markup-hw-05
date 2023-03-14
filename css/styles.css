@@ -771,9 +771,11 @@ color: var(--p-text-color);
     /* fill: #FFFFFF; */
 }
 
-.modal-btn-close:hover .modal-svg {
+.modal-btn-close:hover .modal-svg,
+.modal-btn-close:focus .modal-svg {
     fill: #ffffff;
 }
+
 
 .is-hidden {
     visibility: hidden;
